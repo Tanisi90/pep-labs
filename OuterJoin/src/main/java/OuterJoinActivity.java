@@ -45,12 +45,13 @@ import java.util.Set;
  * support FULL OUTER JOIN
  *
  * The output of the join would create the following result set.
- * |  id  | character |  species  |  id  | character |        catchphrase        |
- * -------------------------------------------------------------------------------
- * |1     |'Bugs'     |'Rabbit'   |1     |'Daffy'    |'Youuu're deththpicable!'  |
- * |2     |'Daffy'    |'Duck'     |2     |'Elmer'    |'I'm hunting wabbits.'     |
- * |3     |'Foghorn'  |'Chicken'  |null  |null       |null                       |
- * |null  |null       |null       |3     |'Porky'    |'That's all folks!'        |
+ * |id      |l_character|species    |id      |lt_character|catchphrase            |
+ * |--------+-----------+-----------+--------+------------+-----------------------+
+ * |1       |Bugs       |Rabbit     | NULL   | NULL       | NULL                  |
+ * |2       |Daffy      |Duck       | 1      |Daffy       |Youuu're deththpicable!|
+ * |3       |Foghorn    |Chicken    | NULL   | NULL       |   NULL                |
+ * | NULL   | NULL      | NULL      | 3      |Porky       |That's all folks!      |
+ * | NULL   | NULL      | NULL      | 2      |Elmer       |I'm hunting wabbits.   |
  *
  *
  * Additional reference material if needed:
