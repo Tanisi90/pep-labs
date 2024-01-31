@@ -49,7 +49,7 @@ import java.util.Set;
  * |--------+-----------+-----------+--------+------------+-----------------------+
  * |1       |Bugs       |Rabbit     | NULL   | NULL       | NULL                  |
  * |2       |Daffy      |Duck       | 1      |Daffy       |Youuu're deththpicable!|
- * |3       |Foghorn    |Chicken    | NULL   | NULL       |   NULL                |
+ * |3       |Foghorn    |Chicken    | NULL   | NULL       | NULL                  |
  * | NULL   | NULL      | NULL      | 3      |Porky       |That's all folks!      |
  * | NULL   | NULL      | NULL      | 2      |Elmer       |I'm hunting wabbits.   |
  *
